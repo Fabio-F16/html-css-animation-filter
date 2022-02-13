@@ -95,31 +95,52 @@
 
 
 
+
+
+
+
+
 .ex-12-button:hover .ex-12-top-white{
-    animation: topbtn 1s linear infinite;
+    animation: topbtn 3s linear infinite;
 }
 
 @keyframes topbtn{
-    50% {
+
+    /* 0%{
+        left: 10%;
+    } */
+
+    50%{
         left: calc(100% - 60px);
     }
-    100% {
-        left: 10%;
-    }  
-}
+
+    100%{
+        left: 20%;
+    }
+    
+    
+    }
+    
+
+
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: bottombtn 1s linear infinite;
+    animation: bottombtn 3s linear infinite;
 }
 
+
+
+
 @keyframes bottombtn{
-    50% {
+
+    50%{
         right: calc(100% - 60px);
     }
-    100% {
+
+    100%{
         right: 20%;
-    }   
-}
+    } 
+} 
 
 
 
@@ -129,10 +150,10 @@
     animation: totaltop 2s linear infinite;
 }
 @keyframes totaltop {
-    0% {
+    /* 0% {
         left: 10%;
         top: -10px;
-    }
+    } */
     30% {
         left: calc(100% - 30px);
         top: -10px;
@@ -154,6 +175,22 @@
         top: -10px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .ex-13-button:hover .ex-13-bottom-white {
     animation: totalbottom 2s linear infinite;
 }
